@@ -20,7 +20,7 @@ pipeline {
                 
             }
         }
-        stage('build and publish mage') {
+        stage('build and publish image') {
       steps {
         script {
           checkout scm
